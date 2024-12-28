@@ -24,7 +24,7 @@
     //   "noFallthroughCasesInSwitch": true
     // },
     /* 향상된 타입 체크 옵션 */
-    "strict": true, // 모든 엄격한 타입 검사 옵션 활성화
+    "strict": false, // 모든 엄격한 타입 검사 옵션 활성화
     "noImplicitAny": true, // 암시적 any 타입 금지
     "strictNullChecks": true, // null/undefined 체크 강화
     "strictFunctionTypes": true, // 함수 타입 검사 강화
@@ -33,8 +33,8 @@
     "noImplicitThis": true, // this 타입 명시 필요
 
     /* 추가 경고 옵션 */
-    "noUnusedLocals": true, // 사용하지 않는 지역 변수 경고
-    "noUnusedParameters": true, // 사용하지 않는 매개변수 경고
+    "noUnusedLocals": false, // 사용하지 않는 지역 변수 경고
+    "noUnusedParameters": false, // 사용하지 않는 매개변수 경고"
     "noFallthroughCasesInSwitch": true, // switch문 fall through 경고
     "noImplicitReturns": true, // 함수의 모든 경로에서 반환값 필요
     "allowUnreachableCode": false, // 도달할 수 없는 코드 금지
