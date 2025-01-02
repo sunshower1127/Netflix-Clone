@@ -1,5 +1,5 @@
+import { ImgProp } from "@/types/htmlProps";
 import clsx from "clsx";
-import { ImgProp } from "../types/htmlprops";
 
 const ImageItem = (props: ImgProp) => {
   return (

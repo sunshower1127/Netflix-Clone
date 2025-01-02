@@ -1,4 +1,4 @@
-import { DivProp } from "../types/htmlprops";
+import { DivProp } from "@/types/htmlProps";
 
 const VerticalSlider = ({ children, ...props }: DivProp) => {
   return (

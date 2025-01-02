@@ -1,6 +1,6 @@
+import { fetchRandomImage } from "@/services/db";
+import { getRandomNum } from "@/utils/funcs";
 import { useEffect, useState } from "react";
-import { fetchRandomImage } from "../services/db";
-import { getRandomNum } from "../utils/funcs";
 
 interface ImageData {
   id: number;

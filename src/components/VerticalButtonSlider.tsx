@@ -1,8 +1,8 @@
+import { LeftArrowIcon, RightArrowIcon } from "@/components/RemixIcons";
+import { DivProp } from "@/types/htmlProps";
+import { twToPx, vwToPx } from "@/utils/funcs";
 import clsx from "clsx";
 import { Children, useRef, useState } from "react";
-import { DivProp } from "../types/htmlprops";
-import { twToPx, vwToPx } from "../utils/funcs";
-import { LeftArrowIcon, RightArrowIcon } from "./RemixIcons";
 
 const VerticalButtonSlider = ({ children, ...props }: DivProp) => {
   const isReverse = useRef(false);
