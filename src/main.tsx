@@ -6,7 +6,7 @@ import { ThemeProvider } from "./theme-provider";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ThemeProvider defaultTheme="system" storageKey="ui-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="ui-theme">
       <Router />
     </ThemeProvider>
   </StrictMode>

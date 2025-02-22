@@ -97,4 +97,9 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .flex > *,
+  .inline-flex > * {
+    @apply flex-none;
+  }
 }

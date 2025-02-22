@@ -1,0 +1,8 @@
+.parent {
+  --bg-color: red;
+  background-color: red;
+
+  & > :hover {
+    --bg-color: blue;
+  }
+}
